@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [web]
+    branches: [main]
 jobs:
   website:
     name: Website
