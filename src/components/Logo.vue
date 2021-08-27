@@ -1,3 +1,3 @@
 <template>
-	<h1 class="filter drop-shadow-lg my-6" style="color: white; font-size: 120px; font-weight: bold;">Up-Devs.DB</h1>
+	<h1 class="filter drop-shadow-lg my-6" style="color: white; font-size: 120px; font-weight: bold;">UpDevs.DB</h1>
 </template>
