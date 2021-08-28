@@ -33,7 +33,7 @@
 			<ul>
 				<li>Easy to use!</li>
 				<li>Has extra methods/properties!</li>
-				<li>Has a client, which is more easier then before!</li>
+				<li>* Similar to [Quick.DB](https://www.npmjs.com/package/quick.db) and [QuickMongo](https://www.npmjs.com/package/quickmongo)!</li>
 			</ul>
 		</div>
 		<div>
