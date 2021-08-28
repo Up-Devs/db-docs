@@ -25,7 +25,7 @@
 				
 			</p>
 			<p>
-				Currently only supports <img src="https://i.imgur.com/QT0aT7z.png" height="17" width="17" alt="Class icon"> [JSON database](/docs/main/main/class/JsonDB), but MongoDB is coming soon!
+				Currently only supports <img src="https://i.imgur.com/QT0aT7z.png" height="17" width="17" alt="Class icon"> <a href="/docs/main/main/class/JsonDB" rel="noopener">JSON database</a>, but MongoDB is coming soon!
 			</p>
 		</div>
 		<div>
@@ -33,7 +33,7 @@
 			<ul>
 				<li>Easy to use!</li>
 				<li>Has extra methods/properties!</li>
-				<li>* Similar to [Quick.DB](https://www.npmjs.com/package/quick.db) and [QuickMongo](https://www.npmjs.com/package/quickmongo)!</li>
+				<li>Similar to <a href="https://www.npmjs.com/package/quick.db" target="_blank" rel="noopener">Quick.DB</a> and <a href="https://www.npmjs.com/package/quickmongo" target="_blank" rel="noopener">QuickMongo!</a></li>
 			</ul>
 		</div>
 		<div>
