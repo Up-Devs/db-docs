@@ -1,13 +1,13 @@
 <template>
 	<div class="sticky top-0 z-20">
-		<header class="bg-discord-green-560">
+		<header class="bg-discord-red-560">
 			<div class="max-w-7xl mx-auto px-2 sm:px-4 md:flex md:justify-between lg:px-8">
 				<nav class="hidden md:flex md:py-2 md:space-x-4 lg:space-x-8" aria-label="Global navigation">
 					<router-link
 						to="/"
 						class="
 							text-gray-200
-							hover:bg-discord-green-630 hover:text-white
+							hover:bg-discord-red-630 hover:text-white
 							rounded-md
 							py-2
 							px-3
@@ -18,7 +18,7 @@
 							focus:outline-none
 							focus-visible:ring-1 focus-visible:ring-white
 						"
-						active-class="bg-discord-green-600"
+						active-class="bg-discord-red-600"
 					>
 						Up-Devs.DB
 					</router-link>
@@ -27,7 +27,7 @@
 						to="/docs"
 						class="
 							text-gray-200
-							hover:bg-discord-green-630 hover:text-white
+							hover:bg-discord-red-630 hover:text-white
 							rounded-md
 							py-2
 							px-3
@@ -38,7 +38,7 @@
 							focus:outline-none
 							focus-visible:ring-1 focus-visible:ring-white
 						"
-						active-class="bg-discord-green-600"
+						active-class="bg-discord-red-600"
 					>
 						Documentation
 					</router-link>
@@ -47,7 +47,7 @@
 						:href="`https://github.com/${repository}`"
 						class="
 							text-gray-200
-							hover:bg-discord-green-630 hover:text-white
+							hover:bg-discord-red-630 hover:text-white
 							rounded-md
 							py-2
 							px-3
@@ -74,8 +74,8 @@
 								inline-flex
 								items-center
 								justify-center
-								hover:bg-discord-green-630
-								focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white focus:bg-discord-green-630
+								hover:bg-discord-red-630
+								focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white focus:bg-discord-red-630
 							"
 							:aria-label="`Switch to ${isDarkMode ? 'light theme' : 'dark theme'}`"
 							@click="toggleDarkMode()"
@@ -99,7 +99,7 @@
 								md:block
 								rounded-md
 								p-2
-								hover:bg-discord-green-630
+								hover:bg-discord-red-630
 								focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white
 							"
 							:aria-label="`Switch to ${isDarkMode ? 'light theme' : 'dark theme'}`"
@@ -129,7 +129,7 @@
 									class="
 										block
 										w-full
-										bg-discord-green-600
+										bg-discord-red-600
 										border border-transparent
 										rounded-md
 										py-2
@@ -138,7 +138,7 @@
 										text-base text-white
 										placeholder-gray-200
 										focus:outline-none
-										focus:bg-discord-green-630
+										focus:bg-discord-red-630
 										focus:text-gray-200
 										focus:placeholder-gray-200
 										focus:ring-2
@@ -167,7 +167,7 @@
 								</div>
 								<div
 									v-if="isSearchOpen && searchInput && searchResults.length"
-									class="absolute mt-1 w-full break-words-legacy border bg-discord-green-600 rounded-md"
+									class="absolute mt-1 w-full break-words-legacy border bg-discord-red-600 rounded-md"
 									@mouseover="searchMouseMove"
 								>
 									<ul>
@@ -175,15 +175,15 @@
 											v-for="(result, index) in searchResults"
 											:key="result.computedName"
 											class="
-												even:bg-discord-green-560
-												dark:even:bg-discord-green-630
-												hover:bg-discord-green-630
-												dark:hover:bg-discord-green-660
+												even:bg-discord-red-560
+												dark:even:bg-discord-red-630
+												hover:bg-discord-red-630
+												dark:hover:bg-discord-red-660
 												rounded-md
 												text-gray-200
 											"
 											:class="{
-												'ring-1 ring-gray-200 even:bg-discord-green-630 dark:even:bg-discord-green-660 bg-discord-green-630 dark:bg-discord-green-660':
+												'ring-1 ring-gray-200 even:bg-discord-red-630 dark:even:bg-discord-red-660 bg-discord-red-630 dark:bg-discord-red-660':
 													index === searchScrollPosition,
 											}"
 										>
@@ -196,8 +196,8 @@
 													focus-visible:ring-1
 													focus-visible:ring-gray-200
 													focus-visible:rounded-md
-													focus-visible:bg-discord-green-630
-													dark:focus-visible:bg-discord-green-660
+													focus-visible:bg-discord-red-630
+													dark:focus-visible:bg-discord-red-660
 												"
 												exact
 												:to="result.getLinkPath()"
@@ -222,7 +222,7 @@
 								items-center
 								justify-center
 								text-gray-200
-								hover:bg-discord-green-630 hover:text-white
+								hover:bg-discord-red-630 hover:text-white
 								focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
 							"
 							aria-controls="mobile-menu"
@@ -248,7 +248,7 @@
 							to="/"
 							class="
 								text-gray-200
-								hover:bg-discord-green-630 hover:text-white
+								hover:bg-discord-red-630 hover:text-white
 								block
 								rounded-md
 								py-2
@@ -264,7 +264,7 @@
 							to="/docs"
 							class="
 								text-gray-200
-								hover:bg-discord-green-630 hover:text-white
+								hover:bg-discord-red-630 hover:text-white
 								block
 								rounded-md
 								py-2
@@ -280,7 +280,7 @@
 							:href="`https://github.com/${repository}`"
 							class="
 								text-gray-200
-								hover:bg-discord-green-630 hover:text-white
+								hover:bg-discord-red-630 hover:text-white
 								block
 								rounded-md
 								py-2
@@ -298,7 +298,7 @@
 							href="https://updevs-db.js.org/guide"
 							class="
 								text-gray-200
-								hover:bg-discord-green-630 hover:text-white
+								hover:bg-discord-red-630 hover:text-white
 								block
 								rounded-md
 								py-2

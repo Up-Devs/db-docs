@@ -1,5 +1,5 @@
 <template>
-	<code class="text-gray-200 bg-discord-green-560 p-4 md:text-lg mx-auto rounded-md shadow flex items-center"
+	<code class="text-gray-200 bg-discord-red-560 p-4 md:text-lg mx-auto rounded-md shadow flex items-center"
 		><span class="hover:text-white mr-2">npm install up-devs.db</span>
 		<button ref="copyButton" class="focus:outline-none" aria-label="Copy install command">
 			<heroicons-outline-clipboard-copy
@@ -10,7 +10,7 @@
 			/>
 			<heroicons-outline-clipboard-check
 				v-else
-				class="inline-block fill-current text-discord-green-500 cursor-pointer mb-1"
+				class="inline-block fill-current text-discord-red-500 cursor-pointer mb-1"
 				aria-hidden="true"
 				@click="copyInstallCmd"
 			/>

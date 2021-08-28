@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-discord-green-500 py-20">
+	<div class="bg-discord-red-500 py-20">
 		<div class="max-w-3xl sm:mx-auto text-center px-8 sm:px-16 flex flex-col gap-10 md:px-12">
 			<Logo class="filter drop-shadow-lg my-6" />
 			<InstallButton />

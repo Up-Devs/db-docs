@@ -6,8 +6,9 @@ module.exports = {
 		extend: {
 			colors: {
 				discord: {
-					600: '#3ba55c',
-					601: '#3c45a5',
+					600: '#a12d2f',
+					601: '#3ba55c',
+					602: '#3c45a5',
 					blurple: {
 						100: '#f7f7fe',
 						130: '#f0f1fe',
@@ -118,7 +119,7 @@ module.exports = {
 								color: theme('colors.gray.300'),
 							},
 							a: {
-								color: theme('colors.discord.green.330'),
+								color: theme('colors.discord.red.330'),
 							},
 							strong: {
 								color: theme('colors.white'),

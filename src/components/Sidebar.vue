@@ -13,8 +13,8 @@
 				items-center
 				justify-center
 				text-gray-200
-				bg-discord-green-600
-				hover:bg-discord-green-630 hover:text-white
+				bg-discord-red-600
+				hover:bg-discord-red-630 hover:text-white
 				focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
 			"
 			aria-controls="sidebar-menu"
@@ -109,7 +109,7 @@
 													class="cursor-default"
 													:value="source"
 												>
-													<li class="px-3 py-1" :class="{ 'bg-discord-green-500 text-gray-200': active }">
+													<li class="px-3 py-1" :class="{ 'bg-discord-red-500 text-gray-200': active }">
 														<span class="truncate">{{ source.name }}</span>
 													</li>
 												</ListboxOption>
@@ -169,7 +169,7 @@
 													class="cursor-default"
 													:value="branch"
 												>
-													<li class="px-3 py-1" :class="{ 'bg-discord-green-500 text-gray-200': active }">
+													<li class="px-3 py-1" :class="{ 'bg-discord-red-500 text-gray-200': active }">
 														<span class="truncate">{{ branch }}</span>
 													</li>
 												</ListboxOption>
@@ -232,7 +232,7 @@
 											dark:text-gray-300
 											border-l-4 border-transparent
 											rounded-sm
-											hover:border-l-4 hover:border-discord-green-500 hover:text-gray-800
+											hover:border-l-4 hover:border-discord-red-500 hover:text-gray-800
 											dark:hover:text-gray-100
 											group
 											flex
@@ -244,7 +244,7 @@
 											focus:outline-none
 											focus-visible:ring-1 focus-visible:ring-white
 										"
-										exact-active-class="border-l-4 border-discord-green-530 text-gray-900"
+										exact-active-class="border-l-4 border-discord-red-530 text-gray-900"
 										@click="isOpen = false"
 									>
 										<span class="truncate">{{ typeof file === 'object' ? file.name : file }}</span>
@@ -281,7 +281,7 @@
 										dark:text-gray-300
 										border-l-4 border-transparent
 										rounded-sm
-										hover:border-l-4 hover:border-discord-green-500 hover:text-gray-800
+										hover:border-l-4 hover:border-discord-red-500 hover:text-gray-800
 										dark:hover:text-gray-100
 										group
 										flex
@@ -293,7 +293,7 @@
 										focus:outline-none
 										focus-visible:ring-1 focus-visible:ring-white
 									"
-									exact-active-class="border-l-4 border-discord-green-530 text-gray-900"
+									exact-active-class="border-l-4 border-discord-red-530 text-gray-900"
 									@click="isOpen = false"
 								>
 									<span class="truncate">{{ cls.name }}</span>
@@ -329,7 +329,7 @@
 										dark:text-gray-300
 										border-l-4 border-transparent
 										rounded-sm
-										hover:border-l-4 hover:border-discord-green-500 hover:text-gray-800
+										hover:border-l-4 hover:border-discord-red-500 hover:text-gray-800
 										dark:hover:text-gray-100
 										group
 										flex
@@ -341,7 +341,7 @@
 										focus:outline-none
 										focus-visible:ring-1 focus-visible:ring-white
 									"
-									exact-active-class="border-l-4 border-discord-green-530 text-gray-900"
+									exact-active-class="border-l-4 border-discord-red-530 text-gray-900"
 									@click="isOpen = false"
 								>
 									<span class="truncate">{{ typedef.name }}</span>

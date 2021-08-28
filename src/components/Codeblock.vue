@@ -28,7 +28,7 @@
 					/>
 					<heroicons-outline-clipboard-check
 						v-else
-						class="fill-current text-discord-green-600 dark:text-discord-green-500"
+						class="fill-current text-discord-red-600 dark:text-discord-red-500"
 						aria-hidden="true"
 						@click="copyCode"
 					/>

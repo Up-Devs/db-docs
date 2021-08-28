@@ -8,7 +8,7 @@
 						v-model="filter"
 						:value="DocumentType.Class"
 						type="checkbox"
-						class="form-checkbox rounded-sm h-5 w-5 text-discord-green-500"
+						class="form-checkbox rounded-sm h-5 w-5 text-discord-red-500"
 					/>
 					Classes
 				</div>
@@ -26,7 +26,7 @@
 						v-model="filter"
 						:value="DocumentType.Property"
 						type="checkbox"
-						class="form-checkbox rounded-sm h-5 w-5 text-green-400"
+						class="form-checkbox rounded-sm h-5 w-5 text-red-400"
 					/>
 					Properties
 				</div>
@@ -98,11 +98,11 @@ const results = computed(() => {
 const getColourFromType = (type: DocumentType) => {
 	switch (type) {
 		case DocumentType.Class:
-			return 'bg-discord-green-500 text-gray-200';
+			return 'bg-discord-red-500 text-gray-200';
 		case DocumentType.Method:
 			return 'bg-yellow-500 text-gray-700';
 		case DocumentType.Property:
-			return 'bg-green-400 text-gray-700';
+			return 'bg-red-400 text-gray-700';
 		case DocumentType.Events:
 			return 'bg-yellow-900 text-gray-200';
 		case DocumentType.Typedefs:
