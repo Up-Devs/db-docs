@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://updevs-db.js.org"><img src="https://user-images.githubusercontent.com/86495381/126329940-37ba7281-55f8-4ed2-80b3-0ade1057774a.png" width="546" alt="Up-Devs.DB" /></a>
+    <a href="https://updevs-db.js.org"><img src="https://user-images.githubusercontent.com/77716705/131206307-0840de3c-a3f7-48e8-9076-f97d163055c3.png" width="546" alt="Up-Devs.DB" /></a>
   </p>
   <br />
   <p>
