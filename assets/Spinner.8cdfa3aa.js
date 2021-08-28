@@ -1,0 +1,1 @@
+import{o as e,b as s,e as r}from"./vendor.334b0b9f.js";const a={},o={class:"relative h-10 w-10 my-60 mx-auto"},l=r("div",{class:"cube1 bg-discord-green-560 h-4 w-4 absolute"},null,-1),n=r("div",{class:"cube2 bg-discord-green-560 h-4 w-4 absolute"},null,-1);a.render=function(r,a){return e(),s("div",o,[l,n])};var b=a;export{b as S};
