@@ -21,29 +21,19 @@
 		<div class="col-span-full">
 			<h2>About</h2>
 			<p>
-				Up-Devs.DB is a powerful Node.js module which can be used for interact with the 
-				<a href="https://developer.brawlstars.com/#/" target="_blank" rel="noopener"
-			        >official <img src="https://i.pinimg.com/474x/e8/44/db/e844db91a58d5ab88730e97b60704460.jpg" height="15" width="15" alt="Brawl Stars logo" style="border-radius:%50;"> Brawl Stars API <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
-				/></a>
-				, which also allows you to access
-				<a href="https://brawlapi.com/" target="_blank" rel="noopener"
-					><img src="https://cdn.brawlify.com/front/Star.svg" height="17" width="19" alt="BrawlAPI logo"> BrawlAPI <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
-				/></a>
-				very easily. It has so many extra methods that will help you code more Brawl! And with it, you can build a Brawl Stars project so much easier!
+				Up-Devs.DB is a powerful Node.js module which can be used saving your datas in data-bases very easily.
 				
 			</p>
 			<p>
-				This package has 100% coverage of the official Brawl Stars API. <em>It receives new Brawl Stars features shortly after they arrive in the API.</em>
+				Currently only supports JSON database, but MongoDB is coming soon!
 			</p>
 		</div>
 		<div>
 			<h2>Why?</h2>
 			<ul>
 				<li>Easy to use!</li>
-				<li>Supports %100 of the Brawl Stars API!</li>
-				<li>Has extra props/methods with <a href="https://brawlapi.com/" target="_blank" rel="noopener"
-					><img src="https://cdn.brawlify.com/front/Star.svg" height="17" width="19" alt="BrawlAPI logo"> BrawlAPI <heroicons-outline-external-link class="h-5 w-5 inline-block mb-1" aria-hidden="true"
-				/></a>!</li>
+				<li>Has extra methods/properties!</li>
+				<li>Has a client, which is more easier then before!</li>
 			</ul>
 		</div>
 		<div>
