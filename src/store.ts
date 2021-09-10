@@ -251,6 +251,7 @@ export const store = createStore<State>({
 
 			// Built-in type links
 			documentation.links = {
+				any'https://flow.org/en/docs/types/any',
 				string: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String',
 				number: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number',
 				bigint: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt',
