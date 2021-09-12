@@ -276,6 +276,9 @@ export const store = createStore<State>({
 				ChildProcess: 'https://nodejs.org/dist/latest/docs/api/child_process.html#child_process_class_childprocess',
 				Worker: 'https://nodejs.org/api/worker_threads.html#worker_threads_class_worker',
 				MessagePort: 'https://nodejs.org/api/worker_threads.html#worker_threads_class_messageport',
+				
+				// For this module only!
+				MongooseDocument: 'https://mongoosejs.com/docs/documents.html',
 			};
 
 			// Add links for everything
