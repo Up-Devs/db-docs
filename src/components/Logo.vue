@@ -1,3 +1,5 @@
 <template>
-	<h1 class="filter drop-shadow-lg my-6" style="color: white; font-size: 120px; font-weight: bold;">UpDevs.DB</h1>
+	<div id="app">
+        <img src="https://user-images.githubusercontent.com/77716705/131206307-0840de3c-a3f7-48e8-9076-f97d163055c3.png">
+    </div>
 </template>
