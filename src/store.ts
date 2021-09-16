@@ -279,6 +279,8 @@ export const store = createStore<State>({
 				
 				// For this module only!
 				MongooseDocument: 'https://mongoosejs.com/docs/documents.html',
+				MongooseConnection: 'https://mongoosejs.com/docs/connections.html',
+				ConnectionOptions: 'https://mongoosejs.com/docs/connections.html',
 			};
 
 			// Add links for everything
