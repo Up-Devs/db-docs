@@ -288,13 +288,13 @@ export const store = createStore<State>({
 			documentation.classes = documentation.classes || [];
 			documentation.typedefs = documentation.typedefs || [];
 			for (const x of documentation.externals) {
-				documentation.links[x.name] = x.see[0].replace(/\{@link\s+(.+?)\s*\}/i, '$1').replace('Constants');
+				documentation.links[x.name.replace('Constants')] = x.see[0].replace(/\{@link\s+(.+?)\s*\}/i, '$1').replace('Constants');
 			}
 			for (const c of documentation.classes) {
-				documentation.links[c.name] = { name: 'docs-source-tag-class-class', params: { class: c.name } };
+				documentation.links[c.name.replace('Constants')] = { name: 'docs-source-tag-class-class', params: { class: c.name.replace('Constants') } };
 			}
 			for (const t of documentation.typedefs) {
-				documentation.links[t.name] = { name: 'docs-source-tag-typedef-typedef', params: { typedef: t.name } };
+				documentation.links[t.name.replace('Constants')] = { name: 'docs-source-tag-typedef-typedef', params: { typedef: t.name.replace('Constants') } };
 			}
 
 			// Workaround for the single use of inter-source see also linking
