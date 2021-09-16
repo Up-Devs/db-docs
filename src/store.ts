@@ -288,7 +288,7 @@ export const store = createStore<State>({
 			documentation.classes = documentation.classes || [];
 			documentation.typedefs = documentation.typedefs || [];
 			for (const x of documentation.externals) {
-				documentation.links[x.name] = x.see[0].replace(/\{@link\s+(.+?)\s*\ Constants\}/i, '$1')
+				documentation.links[x.name] = x.see[0].replace(/\{@link\s+(.+?)\s*\}/i, '$1')
 			}
 			for (const c of documentation.classes) {
 				documentation.links[c.name] = { name: 'docs-source-tag-class-class', params: { class: c.name } };
