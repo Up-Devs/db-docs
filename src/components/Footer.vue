@@ -2,7 +2,7 @@
 	<footer class="bg-discord-red-560">
 		<div class="max-w-3xl mx-auto text-center px-16 pt-10 pb-4 text-gray-200">
 			<strong><router-link to="/">Up-Devs.DB</router-link></strong>
-			<p class="mb-4">An API wrapper for the official Brawl Stars API</p>
+			<p class="mb-4">An useful data-base for your projects. Helpful for storing your datas.</p>
 			<p class="mb-4">Website originally created by the discord.js team</p>
 			<Stats class="mb-4" />
 			<p class="text-xs break-words-legacy">
