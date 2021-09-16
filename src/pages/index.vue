@@ -25,7 +25,7 @@
 				
 			</p>
 			<p>
-				Currently only supports <img src="https://i.imgur.com/QT0aT7z.png" height="17" width="17" alt="Class icon"> <a href="/#/docs/main/main/class/JsonDB" rel="noopener">JSON database</a>, but MongoDB is coming soon!
+				Currently supports <img src="https://i.imgur.com/QT0aT7z.png" height="17" width="17" alt="Class icon"> <a href="/#/docs/main/main/class/JsonDB" rel="noopener">JSON database</a> and <img src="https://i.imgur.com/QT0aT7z.png" height="17" width="17" alt="Class icon"> <a href="/#/docs/main/main/class/MongoDB" rel="noopener">MongoDB</a>!
 			</p>
 		</div>
 		<div>
