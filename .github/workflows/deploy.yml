@@ -25,4 +25,5 @@ jobs:
         with:
           folder: dist
           branch: gh-pages
+          target-folder: docs
           clean: false
