@@ -6,11 +6,11 @@
 			<h3 class="inline-block mr-2">
 				<router-link :to="{ name: 'docs-source-tag-class-class', query: { scrollTo } }">
 					.{{ method.name }}(<span
-						v-for="(param, idx) in params"
+						v-for="param in params"
 						:key="param.name"
 						class="method-param text-discord-red-560 dark:text-discord-red-300 opacity-90 dark:opacity-75"
 						:class="param.optional ? 'optional' : ''"
-						>{{ param.variable ? '...' : '' }}{{ param.name }}{{ (params?.length ?? 1) - 1 !== idx ? ', ' : '' }}</span
+						>{{ param.variable ? '...' : '' }}{{ param.name }}</span
 					>)
 				</router-link>
 			</h3>
@@ -91,28 +91,22 @@
 <script setup lang="ts">
 import { defineProps, computed } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
-
 import { useStore } from '~/store';
 import { parseLink } from '~/util/parseLink';
 import { convertLinks } from '~/util/convertLinks';
 import { markdown } from '~/util/markdown';
 import { typeKey } from '~/util/typeKey';
-
 import SourceButton from '~/components/SourceButton.vue';
 import ParameterTable from '~/components/ParameterTable.vue';
 import TypeLink from '~/components/TypeLink.vue';
 import Types from '~/components/Types.vue';
 import Codeblock from '~/components/Codeblock.vue';
 import See from '~/components/See.vue';
-
 import type { DocumentationClassMethod } from '~/interfaces/Documentation';
-
 const props = defineProps<{ method: DocumentationClassMethod }>();
-
 const router = useRouter();
 const route = useRoute();
 const store = useStore();
-
 const docs = computed(() => store.state.docs);
 // @ts-expect-error
 const description = computed(() => markdown(convertLinks(props.method.description, docs.value, router, route)));
@@ -132,15 +126,12 @@ const scrollTo = computed(() => `${props.method.scope === 'static' ? 's-' : ''}$
 .method-param.optional::before {
 	content: '[';
 }
-
 .method-param.optional:last-child::after {
 	content: ']';
 }
-
 .method-param.optional:not(:last-child)::after {
 	content: '], ';
 }
-
 .method-param:not(:last-child)::after {
 	content: ', ';
 }
