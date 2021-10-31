@@ -10,7 +10,7 @@
 						:key="param.name"
 						class="method-param text-discord-red-560 dark:text-discord-red-300 opacity-90 dark:opacity-75"
 						:class="param.optional ? 'optional' : ''"
-						>{{ param.variable ? '...' : '' }}{{ param.name }}<span v-if="index+1 < method.params.length">, </span></span
+						>{{ param.variable ? '...' : '' }}{{ param.name }}</span
 					>)
 				</router-link>
 			</h3>
