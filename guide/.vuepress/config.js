@@ -19,10 +19,10 @@ module.exports = config({
  themeConfig: {
       sidebarDepth: 3,
       editLinks: true,
-      editLinkPattern: 'https://github.com/Up-Devs/db-docs/edit/:branch/:path',
       lastUpdated: true,
       blog: false,
       repo: 'Up-Devs/up-devs.db',
+      docsRepo: 'Up-Devs/db-docs'
       docsDir: 'guide',
       docsBranch: 'docs',
       logo: '/updevs-db.png',
