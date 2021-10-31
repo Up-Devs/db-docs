@@ -6,12 +6,12 @@
 			<h3 class="inline-block mr-2">
 				<router-link :to="{ name: 'docs-source-tag-class-class', query: { scrollTo } }">
 					.{{ method.name }}(<span
-						v-for="param in params"
+						v-for="(param, index) in params"
 						:key="param.name"
 						class="method-param text-discord-red-560 dark:text-discord-red-300 opacity-90 dark:opacity-75"
 						:class="param.optional ? 'optional' : ''"
 						>{{ param.variable ? '...' : '' }}{{ param.name }}</span
-					>{{ params.join(', ') }})
+					><span v-if="index+1 < params.length">, </span>)
 				</router-link>
 			</h3>
 			<span class="space-x-2 text-gray-200 text-sm font-semibold uppercase pt-6">
