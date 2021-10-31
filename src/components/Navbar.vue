@@ -276,8 +276,8 @@
 							>Documentation</router-link
 						>
 						
-						<a
-							:href="https://updevs-db.js.org/guide/"
+						<router-link
+							to="/docs"
 							class="
 								text-gray-200
 								hover:bg-discord-red-630 hover:text-white
@@ -290,7 +290,7 @@
 							"
 							@click="isOpen = !isOpen"
 							><span class="mr-2">Guide</span><heroicons-outline-external-link class="h-5 w-5 inline-block"
-						/></a>
+						/></router-link>
 
 						<a
 							:href="`https://github.com/${repository}`"
