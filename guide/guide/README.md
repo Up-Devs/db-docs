@@ -6,6 +6,7 @@ This guide will teach you how to:
 
 * Set up a database
 * Set, fetch, push, pull, delete etc. datas
+
 and more...
 
 ## Before you begin
