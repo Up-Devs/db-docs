@@ -6,10 +6,10 @@ module.exports = config({
  base: "/guide/",
 
  head: [
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/updevs-db.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/updevs-db.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/updevs-db.png"}],
-    ['link', { rel: 'icon', href: '/updevs-db.png' }],
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "https://updevs-db.js.org/guide/updevs-db.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "https://updevs-db.js.org/guide/updevs-db.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "https://updevs-db.js.org/guide/updevs-db.png"}],
+    ['link', { rel: 'icon', href: 'https://updevs-db.js.org/guide/updevs-db.png' }],
     ['meta', { name: 'theme-color', content: '#FFE200' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
