@@ -17,13 +17,14 @@
 						<td class="!py-5">
 							<div>
 								<Types
-									v-for="type in parameter.type"
+									v-for="(type, idx) in parameter.type"
 									:key="typeKey(type)"
 									:names="type"
 									:variable="parameter.variable"
 									:nullable="parameter.nullable"
 								/>
 							</div>
+						{{ (parameter.type?.length ?? 1) - 1 !== idx ? ' or ' : '' }}
 						</td>
 						<td v-if="optional" class="!py-5">
 							<span class="sr-only">True</span>
