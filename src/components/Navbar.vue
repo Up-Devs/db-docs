@@ -277,7 +277,7 @@
 						>
 						
 						<router-link
-							to="/docs"
+							to="https://updevs-db.js.org/guide/"
 							class="
 								text-gray-200
 								hover:bg-discord-red-630 hover:text-white
