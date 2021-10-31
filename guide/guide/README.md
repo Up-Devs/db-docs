@@ -10,7 +10,7 @@ This guide will teach you how to:
 and more...
 
 ## Before you begin
-But before you start, be sure to know javascript and nodejs.
+But before you start, make sure to know JavaScript and NodeJS.
 
 * [MDN - JS Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [W3School - JS](https://www.w3schools.com/js/)
