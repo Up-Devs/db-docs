@@ -19,6 +19,7 @@ module.exports = config({
  themeConfig: {
       sidebarDepth: 3,
       editLinks: true,
+      editLinkPattern: 'https://github.com/Up-Devs/db-docs/edit/:branch/:path',
       lastUpdated: true,
       blog: false,
       repo: 'Up-Devs/up-devs.db',
