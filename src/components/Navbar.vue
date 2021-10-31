@@ -68,7 +68,7 @@
 						href="https://updevs-db.js.org/guide/"
 						class="
 							text-gray-200
-							hover:bg-discord-green-630 hover:text-white
+							hover:bg-discord-red-630 hover:text-white
 							rounded-md
 							py-2
 							px-3
