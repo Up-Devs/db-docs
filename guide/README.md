@@ -10,7 +10,7 @@ action:
 
 features:
   - title: Easy to use
-    details: Up-Devs.DB is really easy to use, even you are a beginner!
+    details: Up-Devs.DB is really easy to use, even if you are a beginner!
   - title: Has extra methods/properties!
     details: Up-Devs.DB has extra methods and properties to help you save, get, delete datas easier!
   - title: Similar to Quick.DB and QuickMongo!
