@@ -6,7 +6,7 @@
 			<h3 class="inline-block mr-2">
 				<router-link :to="{ name: 'docs-source-tag-class-class', query: { scrollTo } }">
 					.{{ method.name }}(<span
-						v-for="param in params"
+						v-for="(param, idx) in params"
 						:key="param.name"
 						class="method-param text-discord-red-560 dark:text-discord-red-300 opacity-90 dark:opacity-75"
 						:class="param.optional ? 'optional' : ''"
