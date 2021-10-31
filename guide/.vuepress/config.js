@@ -31,7 +31,7 @@ module.exports = config({
       logo: '/updevs-db.png',
       nav: [
           { text: "Guide", link: "/guide/" },
-          { text: "Docs", link: "https://updevs-db.js.org/" },
+          { text: "Docs", link: "https://updevs-db.js.org/docs" },
           { text: "Discord", link: "https://discord.gg/PhW2XJa2yy" }
       ],
       footer: {
