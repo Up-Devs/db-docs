@@ -22,9 +22,9 @@
 									:names="type"
 									:variable="parameter.variable"
 									:nullable="parameter.nullable"
+								 {{ (parameter.type?.length ?? 1) - 1 !== idx ? ' or ' : '' }}
 								/>
 							</div>
-						{{ (parameter.type?.length ?? 1) - 1 !== idx ? ' or ' : '' }}
 						</td>
 						<td v-if="optional" class="!py-5">
 							<span class="sr-only">True</span>
