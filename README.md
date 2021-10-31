@@ -14,7 +14,7 @@
   </p>
 </div>
     
-# Up-Devs.DB Guide
+# Up-Devs.DB Docs
 Don't change files in this branch!
 Thanks!
 
