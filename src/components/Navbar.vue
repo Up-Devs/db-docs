@@ -288,8 +288,6 @@
 								text-base
 								font-semibold
 							"
-							target="_blank"
-							rel="noopener"
 							@click="isOpen = !isOpen"
 							><span class="mr-2">Guide</span><heroicons-outline-external-link class="h-5 w-5 inline-block"
 						/></a>
