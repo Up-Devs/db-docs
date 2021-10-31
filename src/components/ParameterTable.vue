@@ -44,25 +44,18 @@
 <script setup lang="ts">
 import { defineProps, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-
 import { useStore } from '~/store';
 import { markdown } from '~/util/markdown';
 import { convertLinks } from '~/util/convertLinks';
 import { typeKey } from '~/util/typeKey';
-
 import Types from '~/components/Types.vue';
-
 import type { ParameterUnion } from '~/interfaces/Documentation';
-
 const props = defineProps<{ parameters: ParameterUnion[] }>();
-
 const router = useRouter();
 const route = useRoute();
 const store = useStore();
-
 const docs = computed(() => store.state.docs);
 const optional = computed(() => props.parameters.some((parameter) => parameter.optional));
-
 const parameterDescription = (parameter: any) =>
 	// @ts-expect-error
 	markdown(convertLinks(parameter.description, docs.value, router, route));
@@ -73,15 +66,12 @@ const parameterDefault = (parameter: ParameterUnion) => (parameter.optional ? `<
 table tr:first-child th:first-child {
 	border-top-left-radius: theme('borderRadius.md');
 }
-
 table tr:first-child th:last-child {
 	border-top-right-radius: theme('borderRadius.md');
 }
-
 table tr:last-child td:first-child {
 	border-bottom-left-radius: theme('borderRadius.md');
 }
-
 table tr:last-child td:first-child {
 	border-bottom-right-radius: theme('borderRadius.md');
 }
