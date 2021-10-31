@@ -53,6 +53,47 @@ module.exports = config({
         ]
       },
    },
+ 
+   pwa: {
+    favicon: "/guide/updevs-db.png",
+    themeColor: "#FFE200",
+    cachePic: true,
+    apple: {
+      icon: "/guide/updevs-db.png",
+      statusBarColor: "black",
+    },
+    msTile: {
+      image: "/guide/updevs-db.png",
+      color: "#ffffff",
+    },
+    manifest: {
+      icons: [
+        {
+          src: "/guide/updevs-db.png",
+          sizes: "512x512",
+          purpose: "maskable",
+          type: "image/png",
+        },
+        {
+          src: "/guide/updevs-db.png",
+          sizes: "192x192",
+          purpose: "maskable",
+          type: "image/png",
+        },
+        {
+          src: "/guide/updevs-db.png",
+          sizes: "512x512",
+          type: "image/png",
+        },
+        {
+          src: "/guide/updevs-db.png",
+          sizes: "192x192",
+          type: "image/png",
+        },
+      ],
+    },
+  },
+ 
     configureWebpack: {
       resolve: {
         alias: {
