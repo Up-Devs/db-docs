@@ -17,7 +17,7 @@
 						<td class="!py-5">
 							<div>
 								<Types
-									v-for="(type, idx) in parameter.type"
+									v-for="type in parameter.type"
 									:key="typeKey(type)"
 									:names="type"
 									:variable="parameter.variable"
