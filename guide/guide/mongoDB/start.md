@@ -3,9 +3,9 @@
 ## Creating a Mongo Database
 
 ### Create a MongoDB account
-❌ Click [here](https://www.mongodb.com/cloud/atlas/register) if you **don't have** a MongoDB account
+Click [here](https://www.mongodb.com/cloud/atlas/register) if you **don't have** a MongoDB account
 <br>and<br>
-✔ click [here](https://cloud.mongodb.com/) if you **have** a MongoDB account
+click [here](https://cloud.mongodb.com/) if you **have** a MongoDB account
 
 ### Create a cluster
 
