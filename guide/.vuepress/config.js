@@ -4,15 +4,6 @@ module.exports = config({
  title: 'Up-Devs.DB',
  description: 'An useful data-base for your projects. Helpful for storing your datas.',
  base: "/guide/",
- 
- plugins: [
-    [
-      "@mr-hope/reading-time",
-      {
-        // empty
-      },
-    ],
-  ],
 
  head: [
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/guide/updevs-db.png"}],
