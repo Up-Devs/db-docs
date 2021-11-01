@@ -19,15 +19,15 @@ Don't forget to create a project (in [cloud.mongodb.com](https://cloud.mongodb.c
 ### Connecting to MongoDB Compass
 
 * Press `Connect` in your cluster.
-<img src="https://updevs-db.js.org/guide/mongoConnectButton.png">
+<br><img src="https://updevs-db.js.org/guide/mongoConnectButton.png">
 
 * Press `Connect using MongoDB Compass`
-<img src="https://updevs-db.js.org/guide/mongoUseCompassButton.png">
+<br><img src="https://updevs-db.js.org/guide/mongoUseCompassButton.png">
 
 * Download `MongoDB Compass` if you haven't already.
 * Copy the connection string, and replace `<password>` with your cluster password.
 * Paste your connection string to MongoDB Compass.
-<img src="https://updevs-db.js.org/guide/mongoCompassConnect.png">
+<br><img src="https://updevs-db.js.org/guide/mongoCompassConnect.png">
 
 ::: warning
 If you have any problems, please contact us [here](https://discord.gg/PhW2XJa2yy)
