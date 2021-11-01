@@ -10,7 +10,7 @@ Up-Devs.DB requires you to have Node.js version 16 or higher!
 When you download Node.js, follow the steps in the installer.
 
 ::: warning
-You may need to use third party applications to set up Node.js in Linux
+You may need to use third party applications to set up Node.js in Linux.
 :::
 
 ## Installing Up-Devs.DB
