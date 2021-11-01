@@ -50,6 +50,13 @@ module.exports = config({
               'start/installation',
             ]
           },
+          {
+            title: 'MongoDB',
+            collapsable: false,
+            children: [
+              'mongoDB/start',
+            ]
+          },
         ]
       },
    },
