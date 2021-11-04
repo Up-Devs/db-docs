@@ -55,6 +55,7 @@ module.exports = config({
             collapsable: false,
             children: [
               'mongoDB/start',
+              'mongoDB/first',
             ]
           },
         ]
