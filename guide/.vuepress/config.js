@@ -58,6 +58,14 @@ module.exports = config({
               'mongoDB/first',
             ]
           },
+          {
+            title: 'JsonDB',
+            collapsable: false,
+            children: [
+              'jsonDB/start',
+              'jsonDB/first',
+            ]
+          },
         ]
       },
    },
