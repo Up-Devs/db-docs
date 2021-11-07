@@ -14,7 +14,8 @@ const db = new MongoDB('mongodb+srv://username:password@updevs-db.mongodb.net/mo
 [Docs 📗](https://updevs-db.js.org/docs/#/docs/main/main/class/MongoDB)
 
 ::: danger
-NEVER, EVER publish or publicly share your mongo connection string. So, put this class in a private file.
+NEVER, EVER publish or publicly share your mongo connection string. If someone can access it; they can delete datas, save other datas and they can access your datas.
+<br><br>To prevent this from happening, create this class in a private file.
 :::
 
 ## Setting, deleting and fetching datas (basic)
