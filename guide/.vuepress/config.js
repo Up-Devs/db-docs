@@ -28,7 +28,7 @@ module.exports = config({
       docsRepo: 'Up-Devs/db-docs',
       docsDir: 'guide',
       docsBranch: 'guide',
-      logo: '/updevs-db.png',
+      logo: '/guide/updevs-db.png',
       nav: [
           { text: "Guide", link: "/guide/" },
           { text: "Docs", link: "https://updevs-db.js.org/docs" },
