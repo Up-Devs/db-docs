@@ -56,6 +56,7 @@ module.exports = config({
             children: [
               'mongoDB/start',
               'mongoDB/first',
+              'mongoDB/import',
             ]
           },
           {
@@ -64,6 +65,7 @@ module.exports = config({
             children: [
               'jsonDB/start',
               'jsonDB/first',
+              'jsonDB/import',
             ]
           },
         ]
