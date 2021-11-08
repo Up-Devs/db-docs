@@ -1,7 +1,7 @@
 # Importing datas to JsonDB
 
 ::: warning
-This can only be used in `dev` version!
+This can only be used in the `dev` version!
 :::
 
 ## From Quick.DB
