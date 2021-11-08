@@ -1,4 +1,4 @@
-# Import datas to MongoDB
+# Importing datas to MongoDB
 
 ## From Quick.DB
 If you are using Quick.DB, you can now import datas to MongoDB and switch!
