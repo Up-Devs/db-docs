@@ -1,4 +1,4 @@
-# Import datas to JsonDB
+# Importing datas to JsonDB
 
 ::: warning
 This can only be used in `dev` version!
