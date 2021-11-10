@@ -98,7 +98,7 @@ const results = computed(() => {
 const getColourFromType = (type: DocumentType) => {
 	switch (type) {
 		case DocumentType.Class:
-			return 'bg-discord-red-500 text-gray-200';
+			return 'bg-discord-blurple-500 text-gray-200';
 		case DocumentType.Method:
 			return 'bg-yellow-500 text-gray-700';
 		case DocumentType.Property:
