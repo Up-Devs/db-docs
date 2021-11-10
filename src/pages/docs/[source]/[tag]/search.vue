@@ -102,7 +102,7 @@ const getColourFromType = (type: DocumentType) => {
 		case DocumentType.Method:
 			return 'bg-yellow-500 text-gray-700';
 		case DocumentType.Property:
-			return 'bg-red-400 text-gray-700';
+			return 'bg-green-400 text-gray-700';
 		case DocumentType.Events:
 			return 'bg-yellow-900 text-gray-200';
 		case DocumentType.Typedefs:
