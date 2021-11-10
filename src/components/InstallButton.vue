@@ -10,7 +10,7 @@
 			/>
 			<heroicons-outline-clipboard-check
 				v-else
-				class="inline-block fill-current text-discord-red-500 cursor-pointer mb-1"
+				class="inline-block fill-current text-discord-green-500 cursor-pointer mb-1"
 				aria-hidden="true"
 				@click="copyInstallCmd"
 			/>
