@@ -2,7 +2,7 @@
 ## Creating a JsonDB class
 
 ::: danger
-If you are using Heroku, you shouldn't use Json database. Heroku's json files gets erased very often, meaning that your datas will get deleted.
+If you are using Heroku, you **shouldn't** use Json database. Heroku's json files gets erased very often, meaning that your datas will get deleted.
 :::
 
 ```js
