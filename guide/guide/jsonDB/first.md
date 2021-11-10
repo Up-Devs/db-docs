@@ -1,8 +1,8 @@
 # Creating your first JsonDB class
 ## Creating a JsonDB class
 
-::: warning
-If you are using Heroku, you **shouldn't** use Json database.
+::: danger
+If you are using Heroku, you shouldn't use Json database. Heroku's json files gets erased very often, meaning that your datas will get deleted.
 :::
 
 ```js
