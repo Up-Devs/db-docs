@@ -1,5 +1,5 @@
 .tippy-box[data-theme~='discord'] {
-	@apply text-gray-200 bg-discord-red-600 px-2 py-1 rounded;
+	@apply text-gray-200 bg-discord-green-600 px-2 py-1 rounded;
 }
 
 .tippy-box[data-theme~='discord'] > .tippy-content {
