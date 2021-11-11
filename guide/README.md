@@ -14,6 +14,6 @@ features:
   - title: Has extra methods/properties!
     details: Up-Devs.DB has extra methods and properties to help you save, get, delete datas easier!
   - title: Similar to Quick.DB and QuickMongo!
-    details: Up-Devs.DB is really similar to Quick.DB and QuickMongo, so switching is really easy!
+    details: Up-Devs.DB is really similar to Quick.DB, so switching is really easy!
 footer: Made by Up Devs Team ✨
 ---
