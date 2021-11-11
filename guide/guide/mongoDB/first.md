@@ -8,7 +8,7 @@ If you don't have a mongo database yet, please check [here](./start.md).
 
 ```js
 const { MongoDB } = require('up-devs.db');
-const db = new MongoDB('mongodb+srv://username:password@updevs-db.mongodb.net/mongo' /* Your mongo connection string */, 'up-devs.db' /* Your model name */, { consoleEvents: true /* or false */ });
+const db = new MongoDB('mongodb+srv://username:password@updevs-db.mongodb.net/mongo' /* Your mongo connection string */, { name: 'up-devs.db' /* Your model name */, consoleEvents: true /* or false */ });
 ```
 
 [Docs 📗](https://updevs-db.js.org/docs/#/docs/main/main/class/MongoDB)
