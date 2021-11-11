@@ -54,7 +54,7 @@ module.exports = config({
             title: 'MongoDB',
             collapsable: false,
             children: [
-              'mongoDB/start',
+              'mongoDB/',
               'mongoDB/first',
               'mongoDB/import',
             ]
@@ -63,7 +63,7 @@ module.exports = config({
             title: 'JsonDB',
             collapsable: false,
             children: [
-              'jsonDB/start',
+              'jsonDB/',
               'jsonDB/first',
               'jsonDB/import',
             ]
